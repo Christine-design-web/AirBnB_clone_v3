@@ -30,6 +30,7 @@ def city_by_state(state_id):
 def city_create(state_id):
     """
     create city route
+    writer
     param: state_id - state id
     :return: newly created city obj
     """
@@ -95,6 +96,7 @@ def city_put(city_id):
 def city_delete_by_id(city_id):
     """
     deletes City by id
+    copied
     :param city_id: city object id
     :return: empty dict with 200 or 404 if not found
     """
