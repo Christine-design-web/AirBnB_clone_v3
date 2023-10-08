@@ -13,6 +13,7 @@ from models import storage
 def status():
     """
     status route
+    done with my peer
     :return: response with json
     """
     data = {

@@ -12,6 +12,7 @@ from models.city import City
 def city_by_state(state_id):
     """
     retrieves all City objects from a specific state
+    we getting it huh
     :return: json of all cities in a state or 404 on error
     """
     city_list = []

@@ -11,6 +11,7 @@ from models.amenity import Amenity
 def amenity_get_all():
     """
     retrieves all Amenity objects
+    hello thre
     :return: json of all states
     """
     am_list = []
